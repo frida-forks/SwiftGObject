@@ -6,8 +6,8 @@ let package = Package(
     name: "GLibObject",
     products: [ .library(name: "GLibObject", targets: ["GLibObject"]), ],
     dependencies: [
-        .package(url: "https://github.com/frida/gir2swift.git", branch: "development"),
-        .package(url: "https://github.com/frida/SwiftGLib.git", branch: "development"),
+        .package(url: "https://github.com/frida-forks/gir2swift.git", branch: "development"),
+        .package(url: "https://github.com/frida-forks/SwiftGLib.git", branch: "development"),
         .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.3.0"),
     ],
     targets: [
